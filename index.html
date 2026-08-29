@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gowtham Pudi | AI/ML & Backend Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body { background-color: #0d1117; color: #c9d1d9; font-family: ui-sans-serif, system-ui, sans-serif; }
+    .card-hover:hover { transform: translateY(-4px); border-color: #58a6ff; transition: all 0.2s ease-in-out; }
+    .accent-border { border-color: #30363d; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+
+  <!-- Header / Navigation -->
+  <header class="border-b accent-border py-4 px-6 sticky top-0 bg-[#0d1117]/90 backdrop-blur z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold text-white tracking-tight">Gowtham Pudi<span class="text-blue-500">.dev</span></h1>
+      <nav class="space-x-6 text-sm font-medium">
+        <a href="#projects" class="hover:text-blue-400 transition-colors">Repositories</a>
+        <a href="#skills" class="hover:text-blue-400 transition-colors">Tech Stack</a>
+        <a href="https://github.com/gowtham03-dot" target="_blank" class="hover:text-blue-400 transition-colors"><i class="fab fa-github mr-1"></i>GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="max-w-6xl mx-auto px-6 py-16 text-center md:text-left md:flex md:items-center md:justify-between">
+    <div class="md:w-2/3">
+      <span class="inline-block bg-blue-500/10 text-blue-400 text-xs font-semibold px-3 py-1 rounded-full border border-blue-500/20 mb-4">
+        AI/ML Engineer & Backend Developer
+      </span>
+      <h2 class="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
+        Building Scalable Machine Learning Microservices & Data Pipelines
+      </h2>
+      <p class="text-gray-400 text-lg mb-6 max-w-2xl">
+        Specializing in unsupervised anomaly detection models, statistical data analysis, automated workflow orchestration, and high-performance FastAPI backend applications.
+      </p>
+      <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+        <a href="#projects" class="bg-blue-600 hover:bg-blue-500 text-white font-medium px-5 py-2.5 rounded-lg transition-colors">
+          Explore Repositories
+        </a>
+        <a href="mailto:pudigowtham03@gmail.com" class="bg-[#21262d] hover:bg-[#30363d] text-white border accent-border font-medium px-5 py-2.5 rounded-lg transition-colors flex items-center gap-2">
+          <i class="fas fa-envelope"></i> Contact Me
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Repositories Section -->
+  <section id="projects" class="max-w-6xl mx-auto px-6 py-12">
+    <div class="flex justify-between items-end mb-8 border-b accent-border pb-3">
+      <div>
+        <h3 class="text-2xl font-bold text-white">GitHub Repositories</h3>
+        <p class="text-gray-400 text-sm mt-1">Open-source Machine Learning microservices, agents, and data tools.</p>
+      </div>
+      <a href="https://github.com/gowtham03-dot" target="_blank" class="text-xs text-blue-400 hover:underline">View All on GitHub →</a>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <!-- Repository 1: Flagship Agent -->
+      <div class="bg-[#161b22] border accent-border rounded-xl p-6 card-hover flex flex-col justify-between">
+        <div>
+          <div class="flex justify-between items-start mb-3">
+            <h4 class="text-xl font-bold text-white">Skill Intelligence Agent</h4>
+            <a href="https://github.com/gowtham03-dot/skill-intelligence-agent" target="_blank" class="text-gray-400 hover:text-white"><i class="fab fa-github text-xl"></i></a>
+          </div>
+          <p class="text-gray-400 text-sm mb-4">
+            AI-driven intelligence agent designed to analyze job descriptions, extract skill vectors, and automatically align developer profiles and resumes for automated talent matching.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span class="bg-blue-950 text-blue-300 text-xs px-2.5 py-1 rounded border border-blue-800">Flagship</span>
+            <span class="bg-gray-800 text-gray-300 text-xs px-2.5 py-1 rounded">Python</span>
+            <span class="bg-gray-800 text-gray-300 text-xs px-2.5 py-1 rounded">NLP</span>
+            <span class="bg-gray-800 text-gray-300 text-xs px-2.5 py-1 rounded">FastAPI</span>
+            <span class="bg-gray-800 text-gray-300 text-xs px-2.5 py-1 rounded">AWS</span>
+          </div>
+        </div>
+        <a href="https://github.com/gowtham03-dot/skill-intelligence-agent" target="_blank" class="text-blue-400 hover:underline text-sm font-medium flex items-center gap-1">
+          View Repository <i class="fas fa-arrow-right text-xs"></i>
+        </a>
+      </div>
+
+      <!-- Repository 2: Invoice Anomaly Detector -->
+      <div class="bg-[#161b22] border accent-border rounded-xl p-6 card-hover flex flex-col justify-between">
+        <div>
+          <div class="flex justify-between items-start mb-3">
+            <h4 class="text-xl font-bold text-white">Invoice Anomaly Detector</h4>
+            <a href="https://github.com/gowtham03-dot/invoice-anomaly-detector" target="_blank" class="text-gray-400 hover:text-white"><i class="fab fa-github text-xl"></i></a>
+          </div>
+          <p class="text-gray-400 text-sm mb-4">
+            Microservice built with FastAPI and Scikit-Learn (Isolation Forest) to audit vendor billing patterns and automatically flag uncharacteristic corporate expense submissions.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span class="bg-gray-800 text-gray-300 text-xs px-2.5 py-1 rounded">FastAPI</span>
+            <span class="bg-gray-800 text-gray-300 text-xs px-2.5 py-1 rounded">Isolation Forest</span>
+            <span class="bg-gray-800 text-gray-300 text-xs px-2.5 py-1 rounded">Scikit-Learn</span>
+            <span class="bg-gray-800 text-gray-300 text-xs px-2.5 py-1 rounded">Pytest</span>
+          </div>
+        </div>
+        <a href="https://github.com/gowtham03-dot/invoice-anomaly-detector" target="_blank" class="text-blue-400 hover:underline text-sm font-medium flex items-center gap-1">
+          View Repository <i class="fas fa-arrow-right text-xs"></i>
+        </a>
+      </div>
+
+      <!-- Repository 3: Mandi Price Alert -->
+      <div class="bg-[#161b22] border accent-border rounded-xl p-6 card-hover flex flex-col justify-between">
+        <div>
+          <div class="flex justify-between items-start mb-3">
+            <h4 class="text-xl font-bold text-white">Mandi Price Alert</h4>
+            <a href="https://github.com/gowtham03-dot/mandi-price-alert" target="_blank" class="text-gray-400 hover:text-white"><i class="fab fa-github text-xl"></i></a>
+          </div>
+          <p class="text-gray-400 text-sm mb-4">
+            Agricultural market processing utility using rolling Z-Score statistical analysis to identify artificial price surges and market crashes across Indian Mandis via data.gov.in APIs.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span class="bg-gray-800 text-gray-300 text-xs px-2.5 py-1 rounded">Python 3.11</span>
+            <span class="bg-gray-800 text-gray-300 text-xs px-2.5 py-1 rounded">Z-Score Analysis</span>
+            <span class="bg-gray-800 text-gray-300 text-xs px-2.5 py-1 rounded">Pandas</span>
+            <span class="bg-gray-800 text-gray-300 text-xs px-2.5 py-1 rounded">GCP Cloud Functions</span>
+          </div>
+        </div>
+        <a href="https://github.com/gowtham03-dot/mandi-price-alert" target="_blank" class="text-blue-400 hover:underline text-sm font-medium flex items-center gap-1">
+          View Repository <i class="fas fa-arrow-right text-xs"></i>
+        </a>
+      </div>
+
+      <!-- Repository 4: Developer Profile Configs -->
+      <div class="bg-[#161b22] border accent-border rounded-xl p-6 card-hover flex flex-col justify-between">
+        <div>
+          <div class="flex justify-between items-start mb-3">
+            <h4 class="text-xl font-bold text-white">gowtham03-dot</h4>
+            <a href="https://github.com/gowtham03-dot/gowtham03-dot" target="_blank" class="text-gray-400 hover:text-white"><i class="fab fa-github text-xl"></i></a>
+          </div>
+          <p class="text-gray-400 text-sm mb-4">
+            Personal GitHub profile README and configuration files detailing career focus, tech stack preferences, and active engineering pursuits.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span class="bg-gray-800 text-gray-300 text-xs px-2.5 py-1 rounded">Markdown</span>
+            <span class="bg-gray-800 text-gray-300 text-xs px-2.5 py-1 rounded">GitHub Profile</span>
+            <span class="bg-gray-800 text-gray-300 text-xs px-2.5 py-1 rounded">Config</span>
+          </div>
+        </div>
+        <a href="https://github.com/gowtham03-dot/gowtham03-dot" target="_blank" class="text-blue-400 hover:underline text-sm font-medium flex items-center gap-1">
+          View Repository <i class="fas fa-arrow-right text-xs"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Technical Skills Section -->
+  <section id="skills" class="max-w-6xl mx-auto px-6 py-12">
+    <h3 class="text-2xl font-bold text-white mb-8 border-b accent-border pb-3">Technical Capabilities</h3>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="bg-[#161b22] border accent-border p-4 rounded-lg">
+        <h5 class="text-blue-400 font-semibold mb-2 text-sm">Languages</h5>
+        <p class="text-gray-300 text-sm">Python, SQL, Bash</p>
+      </div>
+      <div class="bg-[#161b22] border accent-border p-4 rounded-lg">
+        <h5 class="text-blue-400 font-semibold mb-2 text-sm">Machine Learning & Stats</h5>
+        <p class="text-gray-300 text-sm">Isolation Forest, Z-Score Analysis, Scikit-Learn, Pandas, NumPy</p>
+      </div>
+      <div class="bg-[#161b22] border accent-border p-4 rounded-lg">
+        <h5 class="text-blue-400 font-semibold mb-2 text-sm">Backend & APIs</h5>
+        <p class="text-gray-300 text-sm">FastAPI, RESTful Microservices, Uvicorn, OpenAPI/Swagger</p>
+      </div>
+      <div class="bg-[#161b22] border accent-border p-4 rounded-lg">
+        <h5 class="text-blue-400 font-semibold mb-2 text-sm">Cloud & Engineering</h5>
+        <p class="text-gray-300 text-sm">AWS EC2, GCP Functions, Git, Docker, Pytest</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t accent-border py-8 text-center text-gray-500 text-sm">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+      <p>© 2026 Gowtham Pudi. All rights reserved.</p>
+      <p>Contact: <a href="mailto:pudigowtham03@gmail.com" class="text-gray-400 hover:text-white underline">pudigowtham03@gmail.com</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
